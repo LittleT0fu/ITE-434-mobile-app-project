@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3A55"
+    tools:context=".CollectionMenu">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="33dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Choose Catagory"
+        android:textAlignment="center"
+        android:textColor="#E8C4C4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/fun_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="167dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="like Fun"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/adventure_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="460dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="like adventure"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/creative_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="363dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="like Creative"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/crafty_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="266dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="like Crafty"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/planing_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="555dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="Like planing"
+        android:textSize="20sp" />
+</AbsoluteLayout>

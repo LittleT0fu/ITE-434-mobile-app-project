@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_x="0dp"
+    android:layout_y="0dp"
+    android:background="#2B3A55"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/taketest_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="584dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="Take test"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/collection_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="584dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="Collection"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="23dp"
+        app:srcCompat="@drawable/bg3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="513dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Check the game out!"
+        android:textAlignment="center"
+        android:textColor="#F2E5E5"
+        android:textColorHighlight="#F2E5E5"
+        android:textColorHint="#F2E5E5"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="242dp"
+        android:layout_height="289dp"
+        android:layout_x="87dp"
+        android:layout_y="115dp"
+        app:srcCompat="@drawable/boardgame1" />
+
+</AbsoluteLayout>

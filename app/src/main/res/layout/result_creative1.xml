@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3A55"
+    tools:context=".ResultCreative_1">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:layout_x="1dp"
+        android:layout_y="3dp"
+        android:rotationY="180"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        android:layout_x="330dp"
+        android:layout_y="672dp"
+        android:rotationY="180"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="389dp"
+        android:fontFamily="@font/mali_bold"
+        android:text="Dixit เป็นเกมการ์ดที่เล่นได้ตั้งแต่ 3-6 คน โดยจะต้องใช้ขินตนาการเพื่อเล่าเรื่องให้ตรงกับภาพ"
+        android:textAlignment="center"
+        android:textColor="#E8C4C4"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="298dp"
+        android:layout_height="293dp"
+        android:layout_x="58dp"
+        android:layout_y="82dp"
+        app:srcCompat="@drawable/dixit" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="33dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="DIXIT"
+        android:textAlignment="center"
+        android:textColor="#E8C4C4"
+        android:textSize="30sp" />
+</AbsoluteLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3A55"
+    tools:context=".QuestionPage5">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="474dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="Others."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="548dp"
+        android:backgroundTint="#CE7777"
+        android:fontFamily="@font/lilita_one"
+        android:text="Yourself."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="363dp"
+        android:layout_height="350dp"
+        android:layout_x="32dp"
+        android:layout_y="89dp"
+        app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="219dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Where's your happiness come from?"
+        android:textAlignment="center"
+        android:textColor="#2B3A55"
+        android:textSize="30sp" />
+</AbsoluteLayout>
